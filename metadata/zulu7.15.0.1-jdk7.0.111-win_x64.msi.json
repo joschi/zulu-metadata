@@ -1,0 +1,19 @@
+{
+  "filename": "zulu7.15.0.1-jdk7.0.111-win_x64.msi",
+  "url": "https://static.azul.com/zulu/bin/zulu7.15.0.1-jdk7.0.111-win_x64.msi",
+  "md5": "17d1492f6e18a1dad658a99c37abe7c4",
+  "md5_file": "zulu7.15.0.1-jdk7.0.111-win_x64.msi.md5",
+  "sha1": "435fae35593c0eade0a9bbeb0d397cbb3c5b7a9d",
+  "sha1_file": "zulu7.15.0.1-jdk7.0.111-win_x64.msi.sha1",
+  "sha256": "1f946803bb3513a90abaff5c6831620a5e45270807007eecb2356f467850c135",
+  "sha256_file": "zulu7.15.0.1-jdk7.0.111-win_x64.msi.sha256",
+  "sha512": "f382fd69f81cbd8a3b980837a844d1c707362663131970d7b2c29477bc456732c8b1587571a4c11bc3960527d5dffed25f55ed6b8e1051fa217e9570e4b89e68",
+  "sha512_file": "zulu7.15.0.1-jdk7.0.111-win_x64.msi.sha512",
+  "version": "7.15.0.1",
+  "release_type": "",
+  "variant": "jdk",
+  "java_version": "7.0.111",
+  "os": "win",
+  "arch": "x64",
+  "archive_type": "msi"
+}

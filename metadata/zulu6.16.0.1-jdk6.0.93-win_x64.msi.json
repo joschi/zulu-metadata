@@ -1,0 +1,19 @@
+{
+  "filename": "zulu6.16.0.1-jdk6.0.93-win_x64.msi",
+  "url": "https://static.azul.com/zulu/bin/zulu6.16.0.1-jdk6.0.93-win_x64.msi",
+  "md5": "70a2ec2b7c49f282d9eca1ba95277772",
+  "md5_file": "zulu6.16.0.1-jdk6.0.93-win_x64.msi.md5",
+  "sha1": "6390ae0d6089828df5ed4b886ff7df329f3dd41e",
+  "sha1_file": "zulu6.16.0.1-jdk6.0.93-win_x64.msi.sha1",
+  "sha256": "86ae4143d490ed005e55314c18c1c04e21cca15eb3a9b3f866deccd5d466c3d6",
+  "sha256_file": "zulu6.16.0.1-jdk6.0.93-win_x64.msi.sha256",
+  "sha512": "42ee707784f4cf3c802c96d409ce30b510a0e47f36bc9071f9ebe81593cf583fc0aab89174ff592b3caa623ca4b216614084c9325f2619bb49d85927cc21c8c1",
+  "sha512_file": "zulu6.16.0.1-jdk6.0.93-win_x64.msi.sha512",
+  "version": "6.16.0.1",
+  "release_type": "",
+  "variant": "jdk",
+  "java_version": "6.0.93",
+  "os": "win",
+  "arch": "x64",
+  "archive_type": "msi"
+}
