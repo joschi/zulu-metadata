@@ -6,25 +6,48 @@ Additionally the script stores MD5, SHA-1, SHA-256, and SHA-512 checksums of the
 
 ## Metadata structure
 
+| Field name     | Description                           |
+| -------------- | ------------------------------------- |
+| `filename`     | Filename of the artifact              |
+| `url`          | Full source URL of the artifact       |
+| `md5`          | MD5 checksum of the artifact          |
+| `md5_file`     | Filename of the MD5 checksum file     |
+| `sha1`         | SHA-1 checksum of the artifact        |
+| `sha1_file`    | Filename of the SHA-1 checksum file   |
+| `sha256`       | SHA-256 checksum of the artifact      |
+| `sha256_file`  | Filename of the SHA-256 checksum file |
+| `sha512`       | SHA-512 checksum of the artifact      |
+| `sha512_file`  | Filename of the SHA-512 checksum file |
+| `version`      | Zulu Community™ version               |
+| `release_type` | `ca` (stable), `ca-fx` (stable with JavaFX), `ea` (early access) |
+| `variant`      | `jre`, `jdk`                          |
+| `java_version` | Java version the artifact is based on |
+| `os`           | `linux`, `macosx`, `win`              |
+| `arch`         | `i686`, `musl_x64` (built against [musl libc](https://musl.libc.org/)), `x64` |
+| `archive_type` | `tar.gz`, `zip`, `dmg`, `msi`         |
+
+
+Example:
+
 ```json
 {
-  "filename": "${ZULU_FILE}", // filename of the artifact
-  "url": "${ZULU_URL}", // full source URL of the artifact
-  "md5": "${MD5}", // MD5 checksum of the artifact
-  "md5_file": "${ZULU_FILE}.md5", // filename of the MD5 checksum file
-  "sha1": "${SHA1}", // SHA-1 checksum of the artifact
-  "sha1_file": "${ZULU_FILE}.sha1", // filename of the SHA-1 checksum file
-  "sha256": "${SHA256}", // SHA-256 checksum of the artifact
-  "sha256_file": "${ZULU_FILE}.sha256", filename of the SHA-256 checksum file
-  "sha512": "${SHA512}", // SHA-512 checksum of the artifact
-  "sha512_file": "${ZULU_FILE}.sha512", filename of the SHA-512 checksum file
-  "version": "${VERSION}", // Zulu Community™ version
-  "release_type": "${RELEASE_TYPE}", // ca, ea, ca-fx
-  "variant": "${VARIANT}", // jre, jdk
-  "java_version": "${JAVA_VERSION}", // Java version the artifact is based on
-  "os": "${OS}", // linux, macosx, win
-  "arch": "${ARCH}", // i686, musl_x64, x64
-  "archive_type": "" // .tar.gz, .zip, .dmg, .msi
+  "filename": "${ZULU_FILE}",
+  "url": "${ZULU_URL}",
+  "md5": "${MD5}",
+  "md5_file": "${ZULU_FILE}.md5",
+  "sha1": "${SHA1}",
+  "sha1_file": "${ZULU_FILE}.sha1",
+  "sha256": "${SHA256}",
+  "sha256_file": "${ZULU_FILE}.sha256",
+  "sha512": "${SHA512}",
+  "sha512_file": "${ZULU_FILE}.sha512",
+  "version": "${VERSION}",
+  "release_type": "${RELEASE_TYPE}",
+  "variant": "${VARIANT}",
+  "java_version": "${JAVA_VERSION}",
+  "os": "${OS}",
+  "arch": "${ARCH}",
+  "archive_type": "${ARCHIVE}"
 }
 ```
 
