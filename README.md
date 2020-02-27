@@ -1,5 +1,7 @@
 # Zulu Community™ Release Metadata
 
+![Update release metadata](https://github.com/joschi/zulu-metadata/workflows/Update%20release%20metadata/badge.svg)
+
 The update script in this repository collects a list of the currently available Zulu Community™ OpenJDK builds and their metadata to store it as JSON files in the `metadata/` directory in this repository.
 
 Additionally the script stores MD5, SHA-1, SHA-256, and SHA-512 checksums of the artifacts which are compatible with `md5sum`, `sha1sum`, `sha256sum`, and `sha512sum` in the `checksums/` directory in this repository.
