@@ -67,6 +67,7 @@ do
   \"archive_type\": \"${ARCHIVE}\"
 }"
 		echo "${METADATA_JSON}" > "${METADATA_FILE}"
+		rm -f "${ZULU_ARCHIVE}"
 	fi
 done
 jq -M -s -S . "${METADATA_DIR}"/zulu*.json > "${METADATA_DIR}/releases.json"
