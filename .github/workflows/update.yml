@@ -1,0 +1,23 @@
+name: Update release metadata
+on:
+  push:
+    branches:
+    - master
+jobs:
+  build:
+    runs-on: 'ubuntu-latest'
+    steps:
+    - uses: actions/checkout@v2
+    - uses: mstksg/get-package@v1
+      with:
+        apt-get: jq perl curl
+    - name: Run update script
+      run: ./update.sh
+    - name: Commit files
+      run: |
+        git add metadata/ checksums/
+        git commit -m "Update release metadata"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
