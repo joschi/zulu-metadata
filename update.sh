@@ -34,7 +34,7 @@ do
 	then
 		echo "Skipping ${ZULU_FILE}"
 	else
-		curl --fail --output "${ZULU_ARCHIVE}" "${ZULU_URL}"
+		curl --silent --show-error --fail -w "%{filename_effective}\n" --output "${ZULU_ARCHIVE}" "${ZULU_URL}"
 		MD5=$(md5sum "${ZULU_ARCHIVE}" | cut -f 1 -d ' ')
 		echo "${MD5}  ${ZULU_FILE}" > "${CHECKSUM_DIR}/${ZULU_FILE}.md5"
 		SHA1=$(sha1sum "${ZULU_ARCHIVE}"| cut -f 1 -d ' ') 
