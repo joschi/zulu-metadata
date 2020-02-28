@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 set -e
 set -Euo pipefail
-set -x
 
 trap 'rm -rf ${TEMP_DIR}' EXIT
 
