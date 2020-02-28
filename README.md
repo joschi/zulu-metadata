@@ -33,25 +33,27 @@ Example:
 
 ```json
 {
-  "filename": "${ZULU_FILE}",
-  "url": "${ZULU_URL}",
-  "md5": "${MD5}",
-  "md5_file": "${ZULU_FILE}.md5",
-  "sha1": "${SHA1}",
-  "sha1_file": "${ZULU_FILE}.sha1",
-  "sha256": "${SHA256}",
-  "sha256_file": "${ZULU_FILE}.sha256",
-  "sha512": "${SHA512}",
-  "sha512_file": "${ZULU_FILE}.sha512",
-  "version": "${VERSION}",
-  "release_type": "${RELEASE_TYPE}",
-  "variant": "${VARIANT}",
-  "java_version": "${JAVA_VERSION}",
-  "os": "${OS}",
-  "arch": "${ARCH}",
-  "archive_type": "${ARCHIVE}"
+  "filename": "zulu8.44.0.13-ca-fx-jdk8.0.242-linux_x64.tar.gz",
+  "url": "https://static.azul.com/zulu/bin/zulu8.44.0.13-ca-fx-jdk8.0.242-linux_x64.tar.gz",
+  "md5": "fda058637e054eae280eb8761824d064",
+  "md5_file": "zulu8.44.0.13-ca-fx-jdk8.0.242-linux_x64.tar.gz.md5",
+  "sha1": "f07e67b9773cadaf539e67b4e26957b9d85220b7",
+  "sha1_file": "zulu8.44.0.13-ca-fx-jdk8.0.242-linux_x64.tar.gz.sha1",
+  "sha256": "e35bad183b6309384fd440890b4c7888b30670006a6e10ce3d4fefb40fbefc93",
+  "sha256_file": "zulu8.44.0.13-ca-fx-jdk8.0.242-linux_x64.tar.gz.sha256",
+  "sha512": "2f650295baf38d99794343b04dd2dd81ebeff92fa9c3a8bf110700118d1879e20016c6ff441f4488e87dd1fc733b87836e90ec9ba26184d8288c400e11bc9057",
+  "sha512_file": "zulu8.44.0.13-ca-fx-jdk8.0.242-linux_x64.tar.gz.sha512",
+  "version": "8.44.0.13",
+  "release_type": "ca-fx",
+  "variant": "jdk",
+  "java_version": "8.0.242",
+  "os": "linux",
+  "arch": "x64",
+  "archive_type": "tar.gz"
 }
 ```
+
+See also [`metadata/`](./metadata/) directory.
 
 ## Disclaimer
 
