@@ -20,7 +20,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add metadata/ checksums/
-        git commit -m "Update release metadata"
+        test -z $(git status -s) || git commit -m "Update release metadata"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
