@@ -6,6 +6,38 @@ The update script in this repository collects a list of the currently available 
 
 Additionally the script stores MD5, SHA-1, SHA-256, and SHA-512 checksums of the artifacts which are compatible with `md5sum`, `sha1sum`, `sha256sum`, and `sha512sum` in the `checksums/` directory in this repository.
 
+## Usage
+
+You can fetch the latest metadata for all Zulu Community™ releases at the following URL:
+
+https://github.com/joschi/zulu-metadata/raw/master/metadata/releases.json
+
+Example with cURL (requesting a compressed version which significantly reduces the transfer size):
+
+```
+curl --compressed -L https://github.com/joschi/zulu-metadata/raw/master/metadata/releases.json
+```
+
+If you want to fetch the checksum manifests for a Zulu Community™ release, you can download it with the following URL template:
+
+```text
+https://github.com/joschi/zulu-metadata/raw/master/checksums/{artifact_filename}.{hash_function}
+```
+
+* `artifact_filename`: The original filename of the artifact, for example `zulu11.37.17-ca-jre11.0.6-linux_x64.tar.gz`
+* `hash_algorithm`: The hash function you want to use; valid values are `md5`, `sha1`, `sha256`, and `sha512`
+
+Example with cURL and SHA-256 checksum:
+
+```
+# Download Zulu Community™ JRE 11.37.17 for Linux (x64)
+curl -O https://static.azul.com/zulu/bin/zulu11.37.17-ca-jre11.0.6-linux_x64.tar.gz
+# Download SHA-256 checksum manifest for Zulu Community™ JRE 11.37.17 for Linux (x64)
+curl -L -O https://github.com/joschi/zulu-metadata/raw/master/checksums/zulu11.37.17-ca-jre11.0.6-linux_x64.tar.gz.sha256
+# Verify checksum
+sha256sum -c zulu11.37.17-ca-jre11.0.6-linux_x64.tar.gz.sha256
+```
+
 ## Metadata structure
 
 | Field name     | Description                           |
