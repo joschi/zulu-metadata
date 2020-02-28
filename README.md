@@ -10,7 +10,9 @@ Additionally the script stores MD5, SHA-1, SHA-256, and SHA-512 checksums of the
 
 You can fetch the latest metadata for all Zulu Community™ releases at the following URL:
 
+```
 https://github.com/joschi/zulu-metadata/raw/master/metadata/releases.json
+```
 
 Example with cURL (requesting a compressed version which significantly reduces the transfer size):
 
@@ -20,7 +22,7 @@ curl --compressed -L https://github.com/joschi/zulu-metadata/raw/master/metadata
 
 If you want to fetch the checksum manifests for a Zulu Community™ release, you can download it with the following URL template:
 
-```text
+```
 https://github.com/joschi/zulu-metadata/raw/master/checksums/{artifact_filename}.{hash_function}
 ```
 
