@@ -34,6 +34,9 @@ do
 		echo "Skipping ${ZULU_FILE}"
 	else
 		curl --silent --show-error --fail -w "%{filename_effective}\n" --output "${ZULU_ARCHIVE}" "${ZULU_URL}"
+		VERSION=""
+		VARIANT=""
+		ARCH=""
 		MD5=$(md5sum "${ZULU_ARCHIVE}" | cut -f 1 -d ' ')
 		echo "${MD5}  ${ZULU_FILE}" > "${CHECKSUM_DIR}/${ZULU_FILE}.md5"
 		SHA1=$(sha1sum "${ZULU_ARCHIVE}"| cut -f 1 -d ' ') 
@@ -70,3 +73,47 @@ do
 	fi
 done
 jq -M -s -S . "${METADATA_DIR}"/zulu*.json > "${METADATA_DIR}/releases.json"
+
+# Precompute some combinations
+for release_type in 'ea' 'ca' 'ca-fx'
+do
+	jq -M -S ".[] | select(.release_type == \"${release_type}\")" "${METADATA_DIR}/releases.json" > "${METADATA_DIR}/releases-${release_type}.json"
+done
+
+for variant in 'jre' 'jdk'
+do
+	jq -M -S ".[] | select(.variant == \"${variant}\")" "${METADATA_DIR}/releases.json" > "${METADATA_DIR}/releases-${variant}.json"
+done
+
+for os in 'linux' 'macosx' 'win'
+do
+	jq -M -S ".[] | select(.os == \"${os}\")" "${METADATA_DIR}/releases.json" > "${METADATA_DIR}/releases-${os}.json"
+done
+
+for arch in 'i686' 'x64'
+do
+	jq -M -S ".[] | select(.arch == \"${arch}\")" "${METADATA_DIR}/releases.json" > "${METADATA_DIR}/releases-${arch}.json"
+done
+
+for version in $(seq 6 15)
+do
+	jq -M -S ".[] | select(.version | startswith(\"${version}.\"))" "${METADATA_DIR}/releases.json" > "${METADATA_DIR}/releases-${version}.json"
+done
+
+for release_type in 'ea' 'ca' 'ca-fx'
+do
+	for variant in 'jre' 'jdk'
+	do
+		for os in 'linux' 'macosx' 'win'
+		do
+			for arch in 'i686' 'x64'
+			do
+				jq -M -S ".[] | select(.release_type == \"${release_type}\") | select(.variant == \"${variant}\") | select(.os == \"${os}\") | select(.arch == \"${arch}\")" "${METADATA_DIR}/releases.json" > "${METADATA_DIR}/releases-${release_type}-${variant}-${os}-${arch}.json"
+				for version in $(seq 6 15)
+				do
+					jq -M -S ".[] | select(.release_type == \"${release_type}\") | select(.variant == \"${variant}\") | select(.os == \"${os}\") | select(.arch == \"${arch}\") | select(.version | startswith(\"${version}.\"))" "${METADATA_DIR}/releases.json" > "${METADATA_DIR}/releases-${version}-${release_type}-${variant}-${os}-${arch}.json"
+				done
+			done
+		done
+	done
+done
