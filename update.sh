@@ -58,7 +58,7 @@ do
   \"sha512\": \"${SHA512}\",
   \"sha512_file\": \"${ZULU_FILE}.sha512\",
   \"version\": \"${VERSION}\",
-  \"release_type\": \"${RELEASE_TYPE}\",
+  \"release_type\": \"${RELEASE_TYPE:="ca"}\",
   \"variant\": \"${VARIANT}\",
   \"java_version\": \"${JAVA_VERSION}\",
   \"os\": \"${OS}\",
