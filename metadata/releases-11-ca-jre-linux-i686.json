@@ -1,0 +1,38 @@
+{
+  "arch": "i686",
+  "archive_type": "tar.gz",
+  "filename": "zulu11.37.17-ca-jre11.0.6-linux_i686.tar.gz",
+  "java_version": "11.0.6",
+  "md5": "8a68854452db8e6c5b2932df4bfb45c9",
+  "md5_file": "zulu11.37.17-ca-jre11.0.6-linux_i686.tar.gz.md5",
+  "os": "linux",
+  "release_type": "ca",
+  "sha1": "52ec6d55de33fc49584f3ef6275a7a10714aedb9",
+  "sha1_file": "zulu11.37.17-ca-jre11.0.6-linux_i686.tar.gz.sha1",
+  "sha256": "ba60a574d7869feb9095e02bd8fb45057d14d50dfe67cf9dd91a1be9de246601",
+  "sha256_file": "zulu11.37.17-ca-jre11.0.6-linux_i686.tar.gz.sha256",
+  "sha512": "da582ca1db9b8eed11f4725865f002806ce759fe32538174a5d7ce967f451a6f0c7e280c0e270946d5214435319446e8e678f6441663d878404b35a77bcb149f",
+  "sha512_file": "zulu11.37.17-ca-jre11.0.6-linux_i686.tar.gz.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu11.37.17-ca-jre11.0.6-linux_i686.tar.gz",
+  "variant": "jre",
+  "version": "11.37.17"
+}
+{
+  "arch": "i686",
+  "archive_type": "zip",
+  "filename": "zulu11.37.17-ca-jre11.0.6-linux_i686.zip",
+  "java_version": "11.0.6",
+  "md5": "47cc6099f7a9336ae8d1e024b887f313",
+  "md5_file": "zulu11.37.17-ca-jre11.0.6-linux_i686.zip.md5",
+  "os": "linux",
+  "release_type": "ca",
+  "sha1": "3947ac4157014fda6a3c9dd8315e0d1a8adf6510",
+  "sha1_file": "zulu11.37.17-ca-jre11.0.6-linux_i686.zip.sha1",
+  "sha256": "36a4ce3d73cc0b6f8077c6350295e3606db44b03b612a56dcda4a5188e52679b",
+  "sha256_file": "zulu11.37.17-ca-jre11.0.6-linux_i686.zip.sha256",
+  "sha512": "5c38f6671bf32fbcc51b86a5c5536a6b45466df8e31d021626b6d07bbbcd2df8d78f7931ba67fad4968e9522e9264bf7cc25bd504703fb1661f6d5c1588ac184",
+  "sha512_file": "zulu11.37.17-ca-jre11.0.6-linux_i686.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu11.37.17-ca-jre11.0.6-linux_i686.zip",
+  "variant": "jre",
+  "version": "11.37.17"
+}
