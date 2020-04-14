@@ -93,3 +93,22 @@
   "variant": "jdk",
   "version": "7.36.0.5"
 }
+{
+  "arch": "x64",
+  "archive_type": "tar.gz",
+  "filename": "zulu7.38.0.11-ca-jdk7.0.262-linux_x64.tar.gz",
+  "java_version": "7.0.262",
+  "md5": "946c6d16056aa70bbb49244cc9952ade",
+  "md5_file": "zulu7.38.0.11-ca-jdk7.0.262-linux_x64.tar.gz.md5",
+  "os": "linux",
+  "release_type": "ca",
+  "sha1": "cebb6db61d12b297cd5eb9ecc74e581b3d3eb700",
+  "sha1_file": "zulu7.38.0.11-ca-jdk7.0.262-linux_x64.tar.gz.sha1",
+  "sha256": "105ff96d4c5d8902436e7e42f41e85f4bab7916c7ea7affa0af70749668b4bd8",
+  "sha256_file": "zulu7.38.0.11-ca-jdk7.0.262-linux_x64.tar.gz.sha256",
+  "sha512": "22aad8d012415f156b930b37dc3cdf4766aecbcd86f60c52168c705f3a06473847c0790320a6ae099ceb5952cae5b7468db727cfea22b015912d2dfcb61d95d1",
+  "sha512_file": "zulu7.38.0.11-ca-jdk7.0.262-linux_x64.tar.gz.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu7.38.0.11-ca-jdk7.0.262-linux_x64.tar.gz",
+  "variant": "jdk",
+  "version": "7.38.0.11"
+}

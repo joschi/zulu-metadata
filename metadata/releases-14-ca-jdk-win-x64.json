@@ -74,3 +74,41 @@
   "variant": "jdk",
   "version": "14.27.1"
 }
+{
+  "arch": "x64",
+  "archive_type": "msi",
+  "filename": "zulu14.28.21-ca-jdk14.0.1-win_x64.msi",
+  "java_version": "14.0.1",
+  "md5": "b2b0c804f55153a313c664099f39c974",
+  "md5_file": "zulu14.28.21-ca-jdk14.0.1-win_x64.msi.md5",
+  "os": "win",
+  "release_type": "ca",
+  "sha1": "3fba04459ced823338c47ad4cee9d1e6263efe90",
+  "sha1_file": "zulu14.28.21-ca-jdk14.0.1-win_x64.msi.sha1",
+  "sha256": "1d0a7a346a423009b93560d88c310865ad26f29a0a6cc5e17bedf39127ec80f2",
+  "sha256_file": "zulu14.28.21-ca-jdk14.0.1-win_x64.msi.sha256",
+  "sha512": "1cc19753e90f96dc84da26394749d0fd9a641faf9ca87d15bf202938dd059ee6850e15987b2693d39dc9d0890fb3e9c892360f6883f9a5f8ec39e8b71e9a60ab",
+  "sha512_file": "zulu14.28.21-ca-jdk14.0.1-win_x64.msi.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu14.28.21-ca-jdk14.0.1-win_x64.msi",
+  "variant": "jdk",
+  "version": "14.28.21"
+}
+{
+  "arch": "x64",
+  "archive_type": "zip",
+  "filename": "zulu14.28.21-ca-jdk14.0.1-win_x64.zip",
+  "java_version": "14.0.1",
+  "md5": "74714dfe6cceb422ae1c1b7a7a6a4e0a",
+  "md5_file": "zulu14.28.21-ca-jdk14.0.1-win_x64.zip.md5",
+  "os": "win",
+  "release_type": "ca",
+  "sha1": "8fdf184c9c1cb32f75e70479fdc789821cbda2c5",
+  "sha1_file": "zulu14.28.21-ca-jdk14.0.1-win_x64.zip.sha1",
+  "sha256": "9cb078b5026a900d61239c866161f0d9558ec759aa15c5b4c7e905370e868284",
+  "sha256_file": "zulu14.28.21-ca-jdk14.0.1-win_x64.zip.sha256",
+  "sha512": "9d49689783015a328ee76142cea8c119db08478f5116f2a07dd86d175f16d638fa58eb5d49756e05bab5bed520f5f986bfafa47e16fa9b4b832855b66ceff386",
+  "sha512_file": "zulu14.28.21-ca-jdk14.0.1-win_x64.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu14.28.21-ca-jdk14.0.1-win_x64.zip",
+  "variant": "jdk",
+  "version": "14.28.21"
+}

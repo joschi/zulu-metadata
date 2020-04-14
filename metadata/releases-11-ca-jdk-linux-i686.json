@@ -36,3 +36,41 @@
   "variant": "jdk",
   "version": "11.37.17"
 }
+{
+  "arch": "i686",
+  "archive_type": "tar.gz",
+  "filename": "zulu11.39.15-ca-jdk11.0.7-linux_i686.tar.gz",
+  "java_version": "11.0.7",
+  "md5": "c5a0141bd1c4a0a0ec55f7de99a3cd38",
+  "md5_file": "zulu11.39.15-ca-jdk11.0.7-linux_i686.tar.gz.md5",
+  "os": "linux",
+  "release_type": "ca",
+  "sha1": "61ba2aadc9ac2bfd213e164c0da0594719b456b3",
+  "sha1_file": "zulu11.39.15-ca-jdk11.0.7-linux_i686.tar.gz.sha1",
+  "sha256": "2aa639a44575fcc8c7997dac1d9c1d622b0d57e8498ddd71497906b25d5d2e60",
+  "sha256_file": "zulu11.39.15-ca-jdk11.0.7-linux_i686.tar.gz.sha256",
+  "sha512": "58fb01b0035e658cba743a4494d63019517c688507b0a645c751bf8215339565e885e1dbd4403308c016122a28c98f1b01c466ac6b11e0f68e1b52e2d52c1f9b",
+  "sha512_file": "zulu11.39.15-ca-jdk11.0.7-linux_i686.tar.gz.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu11.39.15-ca-jdk11.0.7-linux_i686.tar.gz",
+  "variant": "jdk",
+  "version": "11.39.15"
+}
+{
+  "arch": "i686",
+  "archive_type": "zip",
+  "filename": "zulu11.39.15-ca-jdk11.0.7-linux_i686.zip",
+  "java_version": "11.0.7",
+  "md5": "f9791411bfb20aebe4d14aec1456a2de",
+  "md5_file": "zulu11.39.15-ca-jdk11.0.7-linux_i686.zip.md5",
+  "os": "linux",
+  "release_type": "ca",
+  "sha1": "8cea48f4570071bd08528d6079fd889ed7f1adb3",
+  "sha1_file": "zulu11.39.15-ca-jdk11.0.7-linux_i686.zip.sha1",
+  "sha256": "b015f5ec17919f63a63dba9b92fbf7050cfffc1b690dd0466fba00efa02c5ab7",
+  "sha256_file": "zulu11.39.15-ca-jdk11.0.7-linux_i686.zip.sha256",
+  "sha512": "74cb55abeca26adc9cd78e2d69768d204496a80e44eed2758aec295571424fbcf0beab00fbbc24ba4c8895ce34200d0111caa3c433885ae96eed2174c78e8b24",
+  "sha512_file": "zulu11.39.15-ca-jdk11.0.7-linux_i686.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu11.39.15-ca-jdk11.0.7-linux_i686.zip",
+  "variant": "jdk",
+  "version": "11.39.15"
+}

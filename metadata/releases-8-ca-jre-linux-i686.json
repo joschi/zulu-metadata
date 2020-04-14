@@ -112,3 +112,41 @@
   "variant": "jre",
   "version": "8.44.0.11"
 }
+{
+  "arch": "i686",
+  "archive_type": "tar.gz",
+  "filename": "zulu8.46.0.19-ca-jre8.0.252-linux_i686.tar.gz",
+  "java_version": "8.0.252",
+  "md5": "ca5afb0fc51c774fd1e09ca07895b3d4",
+  "md5_file": "zulu8.46.0.19-ca-jre8.0.252-linux_i686.tar.gz.md5",
+  "os": "linux",
+  "release_type": "ca",
+  "sha1": "eca03fcf957269a909bd4d004a4d34e2fb476ce2",
+  "sha1_file": "zulu8.46.0.19-ca-jre8.0.252-linux_i686.tar.gz.sha1",
+  "sha256": "01e47bf6b59b7af59ad6bac0793b9761342aa7d46dee229f70970e80a14806fc",
+  "sha256_file": "zulu8.46.0.19-ca-jre8.0.252-linux_i686.tar.gz.sha256",
+  "sha512": "3fd333d12d1d0bf4cd1d7761607165983e526878d1322cf9be7959f0422ab4d9c9b9a4733b843f42ccdacc00a5eb32794624e88a4be65e0f9a9e77ce81613eb8",
+  "sha512_file": "zulu8.46.0.19-ca-jre8.0.252-linux_i686.tar.gz.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu8.46.0.19-ca-jre8.0.252-linux_i686.tar.gz",
+  "variant": "jre",
+  "version": "8.46.0.19"
+}
+{
+  "arch": "i686",
+  "archive_type": "zip",
+  "filename": "zulu8.46.0.19-ca-jre8.0.252-linux_i686.zip",
+  "java_version": "8.0.252",
+  "md5": "3a6249ed89e023dde0db407dcb2bb4bf",
+  "md5_file": "zulu8.46.0.19-ca-jre8.0.252-linux_i686.zip.md5",
+  "os": "linux",
+  "release_type": "ca",
+  "sha1": "37229bcd23d94b0045e226f618ca706b865686b9",
+  "sha1_file": "zulu8.46.0.19-ca-jre8.0.252-linux_i686.zip.sha1",
+  "sha256": "ec46aa79192e4e65aea00db705a1c5284fee6cc813e1c1b43bdef2c3d295e10c",
+  "sha256_file": "zulu8.46.0.19-ca-jre8.0.252-linux_i686.zip.sha256",
+  "sha512": "4cb008784dabc297e95d12d02fecf101be1a42ffba3da715c36f44b06e2d688fff5149f8d80f6aee0b09e17306f967c157223ac5bc958da21592a07a3733f428",
+  "sha512_file": "zulu8.46.0.19-ca-jre8.0.252-linux_i686.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu8.46.0.19-ca-jre8.0.252-linux_i686.zip",
+  "variant": "jre",
+  "version": "8.46.0.19"
+}

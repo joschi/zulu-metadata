@@ -55,3 +55,41 @@
   "variant": "jre",
   "version": "13.29.9"
 }
+{
+  "arch": "i686",
+  "archive_type": "tar.gz",
+  "filename": "zulu13.31.11-ca-jre13.0.3-linux_i686.tar.gz",
+  "java_version": "13.0.3",
+  "md5": "c490a3cd93a6a8e6664a93db5da8bc25",
+  "md5_file": "zulu13.31.11-ca-jre13.0.3-linux_i686.tar.gz.md5",
+  "os": "linux",
+  "release_type": "ca",
+  "sha1": "c7708996b0dea79fe758dacbd5f5ea7cf3eedb59",
+  "sha1_file": "zulu13.31.11-ca-jre13.0.3-linux_i686.tar.gz.sha1",
+  "sha256": "6547b82c3271d5f1bd27d8f8ba99ee836800961ce4cd137ec8bfcfd5e5a03542",
+  "sha256_file": "zulu13.31.11-ca-jre13.0.3-linux_i686.tar.gz.sha256",
+  "sha512": "f16ee905697e1281e5d8f111327139370a63039f5a18b6daaa02ca8a78760a441d6eeb79b3a551cca68f2fb153c6a3d1c1ab377f519e628484f910281137c743",
+  "sha512_file": "zulu13.31.11-ca-jre13.0.3-linux_i686.tar.gz.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-jre13.0.3-linux_i686.tar.gz",
+  "variant": "jre",
+  "version": "13.31.11"
+}
+{
+  "arch": "i686",
+  "archive_type": "zip",
+  "filename": "zulu13.31.11-ca-jre13.0.3-linux_i686.zip",
+  "java_version": "13.0.3",
+  "md5": "f557800bedde48cbba6f8860a4dd036c",
+  "md5_file": "zulu13.31.11-ca-jre13.0.3-linux_i686.zip.md5",
+  "os": "linux",
+  "release_type": "ca",
+  "sha1": "a89777ca7e6c4b2b83443286890cc0b51d4565ed",
+  "sha1_file": "zulu13.31.11-ca-jre13.0.3-linux_i686.zip.sha1",
+  "sha256": "03dbea7ef661426dd2a31800ed52b98f0831a66ad2428b87f403cda7226deec6",
+  "sha256_file": "zulu13.31.11-ca-jre13.0.3-linux_i686.zip.sha256",
+  "sha512": "3b4c30d65659e62443d706cd0cd62b6a1770a0c69bc286f54f3109967d329a951e4322d6361db9cf90f21a3f6622e31175fd4069eeb5a84d160405e15580933e",
+  "sha512_file": "zulu13.31.11-ca-jre13.0.3-linux_i686.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-jre13.0.3-linux_i686.zip",
+  "variant": "jre",
+  "version": "13.31.11"
+}
