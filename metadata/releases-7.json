@@ -2108,6 +2108,63 @@
   "version": "7.38.0.11"
 }
 {
+  "arch": "x64",
+  "archive_type": "dmg",
+  "filename": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.dmg",
+  "java_version": "7.0.262",
+  "md5": "82da720008ea3e5db6c55749fc4269fc",
+  "md5_file": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.dmg.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "3853e7558c034babd16c56516416cba07f8d6db3",
+  "sha1_file": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.dmg.sha1",
+  "sha256": "1506d0ab687d6504b1159b048470982376a55a6925214ab26117f21d4fb0e392",
+  "sha256_file": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.dmg.sha256",
+  "sha512": "60ff5ef04a986f17a9c663c4fe0cbbc21feec13abe5a53c7598dabcd59904440af890a5e837f4cf883091769c623d323a2e3ced5bc22d6df6c6a514ae54a1b0b",
+  "sha512_file": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.dmg.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.dmg",
+  "variant": "jdk",
+  "version": "7.38.0.11"
+}
+{
+  "arch": "x64",
+  "archive_type": "tar.gz",
+  "filename": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.tar.gz",
+  "java_version": "7.0.262",
+  "md5": "334827d88d09bd975e4a99830066767c",
+  "md5_file": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.tar.gz.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "d4fd379cc4833033363d092ddcc11804d27cadfa",
+  "sha1_file": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.tar.gz.sha1",
+  "sha256": "1f4345b0380222b9611753a489cb14a350902bf14b01b3bfe23281b6c916dc07",
+  "sha256_file": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.tar.gz.sha256",
+  "sha512": "b56793c580da79f3e1c255d8ea285d75cf0930e569fcd235e10e7a839ffe49214070661aa9ef94ecf8533b6d393fd3c3be650249737716e93667f8012068ee6b",
+  "sha512_file": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.tar.gz.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.tar.gz",
+  "variant": "jdk",
+  "version": "7.38.0.11"
+}
+{
+  "arch": "x64",
+  "archive_type": "zip",
+  "filename": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.zip",
+  "java_version": "7.0.262",
+  "md5": "5ad1420dda2456c8887c4b9c3f561fc8",
+  "md5_file": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.zip.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "4ef07b095da1b409999bfd06a4127d782a0ed27e",
+  "sha1_file": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.zip.sha1",
+  "sha256": "65744726c0c56d24254686ba983db8823767c396cd0aa99d3a934880b1389687",
+  "sha256_file": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.zip.sha256",
+  "sha512": "508b38bdd979388fe339ce008d7c2c852d21fd0420007634e5074ebc84ef41715544d7fbade731d6bcc5ba2aeb0c579089d99985a366fc1e6708d751f28998be",
+  "sha512_file": "zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu7.38.0.11-ca-jdk7.0.262-macosx_x64.zip",
+  "variant": "jdk",
+  "version": "7.38.0.11"
+}
+{
   "arch": "i686",
   "archive_type": "msi",
   "filename": "zulu7.38.0.11-ca-jdk7.0.262-win_i686.msi",
@@ -2199,6 +2256,25 @@
   "sha512": "abacbade69a3a20f2620450924d000c05b6e49a0f4ff8792a9d958a662986d6f79ae8813589f01ed8d8849b99edaa87c87bc095977452824fbb1a56821284d32",
   "sha512_file": "zulu7.38.0.11-ca-jre7.0.262-linux_i686.tar.gz.sha512",
   "url": "https://static.azul.com/zulu/bin/zulu7.38.0.11-ca-jre7.0.262-linux_i686.tar.gz",
+  "variant": "jre",
+  "version": "7.38.0.11"
+}
+{
+  "arch": "x64",
+  "archive_type": "tar.gz",
+  "filename": "zulu7.38.0.11-ca-jre7.0.262-macosx_x64.tar.gz",
+  "java_version": "7.0.262",
+  "md5": "c419173d1206590b82b955b4b932baa0",
+  "md5_file": "zulu7.38.0.11-ca-jre7.0.262-macosx_x64.tar.gz.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "382dbeb2be9a9181623ef4bc53929b2e6829931b",
+  "sha1_file": "zulu7.38.0.11-ca-jre7.0.262-macosx_x64.tar.gz.sha1",
+  "sha256": "b65769b14ef89d8220a9d2c36d9ff9a2da148d95d4301117d833bfa3c5adefd5",
+  "sha256_file": "zulu7.38.0.11-ca-jre7.0.262-macosx_x64.tar.gz.sha256",
+  "sha512": "88cda1a5ef5f7551d7dc0acf8cee39e7c4799f9c897e78c99a95b0b9dceb90f9da38a884423050b6d9a76c778ec43deff0375ccc8b1a39babb6374928f55a4ce",
+  "sha512_file": "zulu7.38.0.11-ca-jre7.0.262-macosx_x64.tar.gz.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu7.38.0.11-ca-jre7.0.262-macosx_x64.tar.gz",
   "variant": "jre",
   "version": "7.38.0.11"
 }

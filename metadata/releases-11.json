@@ -3191,6 +3191,63 @@
   "version": "11.39.15"
 }
 {
+  "arch": "x64",
+  "archive_type": "dmg",
+  "filename": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.dmg",
+  "java_version": "11.0.7",
+  "md5": "6332904deafa9a74f9949115e1820105",
+  "md5_file": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.dmg.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "7e2ab0d59b5aec8262f6127ab56fd8c7122c0fa4",
+  "sha1_file": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.dmg.sha1",
+  "sha256": "8322cb6498076f171ab5efa4101fe8207d9aa6517d1d743bbe4d753b67abc8cb",
+  "sha256_file": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.dmg.sha256",
+  "sha512": "914d0f71608969c8e9e42d1ea07bd1bc38af1762d1fedfb11411e34de06fd58d02b4bb65e5e278453d1ffb8e44f76cfdd660e30a6ba4a6856245b427b74310ac",
+  "sha512_file": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.dmg.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu11.39.15-ca-jdk11.0.7-macosx_x64.dmg",
+  "variant": "jdk",
+  "version": "11.39.15"
+}
+{
+  "arch": "x64",
+  "archive_type": "tar.gz",
+  "filename": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.tar.gz",
+  "java_version": "11.0.7",
+  "md5": "53d996f7a0b8ccdf080859afb4aab1c9",
+  "md5_file": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.tar.gz.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "40df2272c1a8ab336336e34173f781f17172a917",
+  "sha1_file": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.tar.gz.sha1",
+  "sha256": "936505ab1826c5db3dbd09efa0b9b453198860cad38f32881aaea00920cc54d7",
+  "sha256_file": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.tar.gz.sha256",
+  "sha512": "0768021321fe27bbfc4a4084ea7574954c4029a97f681b0d1c27385785922cba8e6b341b22c8a1f0824a4f4918c2845e1f91f353826d4877cafe911f56a03666",
+  "sha512_file": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.tar.gz.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu11.39.15-ca-jdk11.0.7-macosx_x64.tar.gz",
+  "variant": "jdk",
+  "version": "11.39.15"
+}
+{
+  "arch": "x64",
+  "archive_type": "zip",
+  "filename": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.zip",
+  "java_version": "11.0.7",
+  "md5": "00e70b1dadb1c220da851018ec8a7e6f",
+  "md5_file": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.zip.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "a2cb4cef898760690dea2c9347e8b6f4caa278ff",
+  "sha1_file": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.zip.sha1",
+  "sha256": "e5ea71dd86eefe6e2ef78720ea729f26a8b5c279bcb2f1770745698ef374f9b8",
+  "sha256_file": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.zip.sha256",
+  "sha512": "6f4aa02732e57faeabd23bc98f9c8481c6818a6587465b27716e88e3d43f2b0ae99ecb3c821d7f8641aae95d439ffb81742dff94da6b161edda83df0eda677d2",
+  "sha512_file": "zulu11.39.15-ca-jdk11.0.7-macosx_x64.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu11.39.15-ca-jdk11.0.7-macosx_x64.zip",
+  "variant": "jdk",
+  "version": "11.39.15"
+}
+{
   "arch": "i686",
   "archive_type": "msi",
   "filename": "zulu11.39.15-ca-jdk11.0.7-win_i686.msi",
@@ -3358,6 +3415,25 @@
   "sha512": "aff0f24c620854b07049ec3cb6ae7dce09ca12969355c70fe3ae195ff8aa75dba3971e357a0fb21ad0f45cc16f7a34f77874c8304747da73178eb3ebcd21763d",
   "sha512_file": "zulu11.39.15-ca-jre11.0.7-linux_x64.zip.sha512",
   "url": "https://static.azul.com/zulu/bin/zulu11.39.15-ca-jre11.0.7-linux_x64.zip",
+  "variant": "jre",
+  "version": "11.39.15"
+}
+{
+  "arch": "x64",
+  "archive_type": "zip",
+  "filename": "zulu11.39.15-ca-jre11.0.7-macosx_x64.zip",
+  "java_version": "11.0.7",
+  "md5": "06800385e06347415264f79075a9643e",
+  "md5_file": "zulu11.39.15-ca-jre11.0.7-macosx_x64.zip.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "36c727c822abfc60a02052c0b3d004d936a7cd90",
+  "sha1_file": "zulu11.39.15-ca-jre11.0.7-macosx_x64.zip.sha1",
+  "sha256": "d5f40f9a221816e3f4c3219ac658d184d8cb4f99c7a1fb19f4ffc45d88bafd73",
+  "sha256_file": "zulu11.39.15-ca-jre11.0.7-macosx_x64.zip.sha256",
+  "sha512": "597582e66eacf77a270034f4435b7e982c511db5a971e4ed322cf62bf2e6a62504d890bae0f3be8d83ccc6d4ea73c1828915f2a32c54c1e99874ff40dbf78351",
+  "sha512_file": "zulu11.39.15-ca-jre11.0.7-macosx_x64.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu11.39.15-ca-jre11.0.7-macosx_x64.zip",
   "variant": "jre",
   "version": "11.39.15"
 }

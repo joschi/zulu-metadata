@@ -1595,6 +1595,63 @@
   "version": "13.31.11"
 }
 {
+  "arch": "x64",
+  "archive_type": "dmg",
+  "filename": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.dmg",
+  "java_version": "13.0.3",
+  "md5": "756ea4be7ceda83bf11abc87289f54b4",
+  "md5_file": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.dmg.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "3e4e8500f96d444e86c9f0c672a27ab2ab0b1efd",
+  "sha1_file": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.dmg.sha1",
+  "sha256": "926a3e27761c82bd694324ef146f991f13b88f0e439ce49bf0e06cfbcbc6c727",
+  "sha256_file": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.dmg.sha256",
+  "sha512": "12fbfd94e813a790f5b07f768fa714677f9ef4e5ee610ce21b7354d40ac94f61a7ab17545967c664df594deb6aaee6aab69ce4f534c0684a5b2ab93f7e1670aa",
+  "sha512_file": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.dmg.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-jdk13.0.3-macosx_x64.dmg",
+  "variant": "jdk",
+  "version": "13.31.11"
+}
+{
+  "arch": "x64",
+  "archive_type": "tar.gz",
+  "filename": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.tar.gz",
+  "java_version": "13.0.3",
+  "md5": "b3512963506b85429180f8e4068c0758",
+  "md5_file": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.tar.gz.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "6414d400defa99e5f982bb53fdbb5111192e64bb",
+  "sha1_file": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.tar.gz.sha1",
+  "sha256": "951575e3102689b9272fee25d25f0d4405a77577c3e07ee41666c3fc8d5d63c8",
+  "sha256_file": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.tar.gz.sha256",
+  "sha512": "26936f6ee0f714fb3e560dc33eb3cb8a6e99dc45fd14e9cd5b765cf762cf6996e4d5c16499179bb44673d6ba2315af8a41324360479883adbec7aa582d191a86",
+  "sha512_file": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.tar.gz.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-jdk13.0.3-macosx_x64.tar.gz",
+  "variant": "jdk",
+  "version": "13.31.11"
+}
+{
+  "arch": "x64",
+  "archive_type": "zip",
+  "filename": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.zip",
+  "java_version": "13.0.3",
+  "md5": "cb4d05daf112b2d88b8ac26c4cab7934",
+  "md5_file": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.zip.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "0ffb3f400724a6530d904aae58b001749c945e0e",
+  "sha1_file": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.zip.sha1",
+  "sha256": "abcca9d5c149fd9d7b5c21365be204ee6a7361810adc748ff8c4a6c15af9c76e",
+  "sha256_file": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.zip.sha256",
+  "sha512": "31e295d7487e30ce7d101716854ccda04654b9dbf8be6aa236d12dbd50fa7cf28f80fe3b92071c5e2944fc31af986813d619e6f471b873a31b59d70d155f00f3",
+  "sha512_file": "zulu13.31.11-ca-jdk13.0.3-macosx_x64.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-jdk13.0.3-macosx_x64.zip",
+  "variant": "jdk",
+  "version": "13.31.11"
+}
+{
   "arch": "i686",
   "archive_type": "zip",
   "filename": "zulu13.31.11-ca-jdk13.0.3-win_i686.zip",
@@ -1743,6 +1800,63 @@
   "sha512": "2b55ffeafb654cd851b0a25ba9217370d4486380346f118a49b73fda2763394b6f46002e2a401e88ff09db594baa8d00de472dd5503076ad2a1dc2749bb40ad3",
   "sha512_file": "zulu13.31.11-ca-jre13.0.3-linux_x64.zip.sha512",
   "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-jre13.0.3-linux_x64.zip",
+  "variant": "jre",
+  "version": "13.31.11"
+}
+{
+  "arch": "x64",
+  "archive_type": "dmg",
+  "filename": "zulu13.31.11-ca-jre13.0.3-macosx_x64.dmg",
+  "java_version": "13.0.3",
+  "md5": "c09228024413069582ccecd82ad0bb90",
+  "md5_file": "zulu13.31.11-ca-jre13.0.3-macosx_x64.dmg.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "967bd8df98473b9454fa66b908b4101b4969eb03",
+  "sha1_file": "zulu13.31.11-ca-jre13.0.3-macosx_x64.dmg.sha1",
+  "sha256": "a4b13a459d134d5988ef616ac6712adc2efa1a8717dc3e86102cb8dd4368425a",
+  "sha256_file": "zulu13.31.11-ca-jre13.0.3-macosx_x64.dmg.sha256",
+  "sha512": "21835614a22c3b41e729501a44eb2bc390dd260e274ffa2e65e25b1d34c47225cbf7d0cecb8cc6bb14c72cef1ee205399d9a0cf0b151d85d59126c6d81c6a115",
+  "sha512_file": "zulu13.31.11-ca-jre13.0.3-macosx_x64.dmg.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-jre13.0.3-macosx_x64.dmg",
+  "variant": "jre",
+  "version": "13.31.11"
+}
+{
+  "arch": "x64",
+  "archive_type": "tar.gz",
+  "filename": "zulu13.31.11-ca-jre13.0.3-macosx_x64.tar.gz",
+  "java_version": "13.0.3",
+  "md5": "f1a3908463f8bcfd86a9225c510778aa",
+  "md5_file": "zulu13.31.11-ca-jre13.0.3-macosx_x64.tar.gz.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "b0f19f06699bba6029db064c007961b6527014b7",
+  "sha1_file": "zulu13.31.11-ca-jre13.0.3-macosx_x64.tar.gz.sha1",
+  "sha256": "f7407bb41b05f634fc248e2b5f54906191848e1d877cd1503c31636faee87bb6",
+  "sha256_file": "zulu13.31.11-ca-jre13.0.3-macosx_x64.tar.gz.sha256",
+  "sha512": "f08ee6a166f02668ee2cd256cefb19e886306fc6bf46eff7d11c9db658a68245a52987af7640cad2fd9a4a63d439c160d88850c5d82bd41d3f086f44f15969ab",
+  "sha512_file": "zulu13.31.11-ca-jre13.0.3-macosx_x64.tar.gz.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-jre13.0.3-macosx_x64.tar.gz",
+  "variant": "jre",
+  "version": "13.31.11"
+}
+{
+  "arch": "x64",
+  "archive_type": "zip",
+  "filename": "zulu13.31.11-ca-jre13.0.3-macosx_x64.zip",
+  "java_version": "13.0.3",
+  "md5": "7a801b49569c66879d0095808ab54aa9",
+  "md5_file": "zulu13.31.11-ca-jre13.0.3-macosx_x64.zip.md5",
+  "os": "macosx",
+  "release_type": "ca",
+  "sha1": "443e0e715caab152f85688e272f7ca60c36c2397",
+  "sha1_file": "zulu13.31.11-ca-jre13.0.3-macosx_x64.zip.sha1",
+  "sha256": "be66b04f4cf559e027c80774052a8f76c555fc40a68886bd6485be69ef4c73db",
+  "sha256_file": "zulu13.31.11-ca-jre13.0.3-macosx_x64.zip.sha256",
+  "sha512": "e48bd9f53a47195ff2ab49113d18b3fca840ccc482c55ea6d95af57ba767fdcfbef49694bb20bc7f2dc6bcff6047c81be50dbd282847fbfd2848632c6aaaf156",
+  "sha512_file": "zulu13.31.11-ca-jre13.0.3-macosx_x64.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-jre13.0.3-macosx_x64.zip",
   "variant": "jre",
   "version": "13.31.11"
 }
