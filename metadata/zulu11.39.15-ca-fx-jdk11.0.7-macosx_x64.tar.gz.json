@@ -1,0 +1,19 @@
+{
+  "filename": "zulu11.39.15-ca-fx-jdk11.0.7-macosx_x64.tar.gz",
+  "url": "https://static.azul.com/zulu/bin/zulu11.39.15-ca-fx-jdk11.0.7-macosx_x64.tar.gz",
+  "md5": "199f44a559578d484a39de0a0ccc6654",
+  "md5_file": "zulu11.39.15-ca-fx-jdk11.0.7-macosx_x64.tar.gz.md5",
+  "sha1": "5bfa4d2ad58e8546a6c0f1d3ebf716be74510a1d",
+  "sha1_file": "zulu11.39.15-ca-fx-jdk11.0.7-macosx_x64.tar.gz.sha1",
+  "sha256": "73f9836c47fe913781e0525f46435e1e8d8e434eb77a12d7bb836ad4633e98d1",
+  "sha256_file": "zulu11.39.15-ca-fx-jdk11.0.7-macosx_x64.tar.gz.sha256",
+  "sha512": "b039f4cb60fb5858a1fa139959f6a41f76bbadb276bfab817736a09c28c5a650ce03cf4350a5017f4cc38f2a9c99b5826c22bb663d671abdce680e1d9126329d",
+  "sha512_file": "zulu11.39.15-ca-fx-jdk11.0.7-macosx_x64.tar.gz.sha512",
+  "version": "11.39.15",
+  "release_type": "ca-fx",
+  "variant": "jdk",
+  "java_version": "11.0.7",
+  "os": "macosx",
+  "arch": "x64",
+  "archive_type": "tar.gz"
+}

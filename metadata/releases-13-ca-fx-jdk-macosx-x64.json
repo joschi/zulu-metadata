@@ -17,3 +17,41 @@
   "variant": "jdk",
   "version": "13.29.11"
 }
+{
+  "arch": "x64",
+  "archive_type": "tar.gz",
+  "filename": "zulu13.31.11-ca-fx-jdk13.0.3-macosx_x64.tar.gz",
+  "java_version": "13.0.3",
+  "md5": "b03ec2433bf4dacba2ea0721ff686774",
+  "md5_file": "zulu13.31.11-ca-fx-jdk13.0.3-macosx_x64.tar.gz.md5",
+  "os": "macosx",
+  "release_type": "ca-fx",
+  "sha1": "edf1ec8c6f5ae835ef1c875a811e81976c3fed0f",
+  "sha1_file": "zulu13.31.11-ca-fx-jdk13.0.3-macosx_x64.tar.gz.sha1",
+  "sha256": "7f05b5c4eb81500995e770aab84a83c37281dcb1a6bf7d1289136632f75ca534",
+  "sha256_file": "zulu13.31.11-ca-fx-jdk13.0.3-macosx_x64.tar.gz.sha256",
+  "sha512": "d32fa34c1cc396f9532f72b02adca9789046407a34c955080ab33eb90642b8db6c3bb65ee5e5c4785e420033f60556084382534a85d268e719b0ba649d023523",
+  "sha512_file": "zulu13.31.11-ca-fx-jdk13.0.3-macosx_x64.tar.gz.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-fx-jdk13.0.3-macosx_x64.tar.gz",
+  "variant": "jdk",
+  "version": "13.31.11"
+}
+{
+  "arch": "x64",
+  "archive_type": "zip",
+  "filename": "zulu13.31.11-ca-fx-jdk13.0.3-macosx_x64.zip",
+  "java_version": "13.0.3",
+  "md5": "56db379a0b73eeebc8de07d5c966bca2",
+  "md5_file": "zulu13.31.11-ca-fx-jdk13.0.3-macosx_x64.zip.md5",
+  "os": "macosx",
+  "release_type": "ca-fx",
+  "sha1": "54537ea65347060864c47aae1dcc6657920dc366",
+  "sha1_file": "zulu13.31.11-ca-fx-jdk13.0.3-macosx_x64.zip.sha1",
+  "sha256": "8a9c3fe1b033ef6ffe06a7092c1bac4cdfc9b8070bdf63cc6486f2f0a90cdeea",
+  "sha256_file": "zulu13.31.11-ca-fx-jdk13.0.3-macosx_x64.zip.sha256",
+  "sha512": "5ca8fa42d3a79fb4004d4c45ebbc8656f80ff986c38b2d0687f941220643da4af506f41bf65b4a3d71b4010a04b71a8f485d1113519af24b25384b166a180d15",
+  "sha512_file": "zulu13.31.11-ca-fx-jdk13.0.3-macosx_x64.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-fx-jdk13.0.3-macosx_x64.zip",
+  "variant": "jdk",
+  "version": "13.31.11"
+}
