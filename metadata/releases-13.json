@@ -1481,6 +1481,25 @@
   "version": "13.31.11"
 }
 {
+  "arch": "i686",
+  "archive_type": "zip",
+  "filename": "zulu13.31.11-ca-fx-jdk13.0.3-win_i686.zip",
+  "java_version": "13.0.3",
+  "md5": "d7ec3fc2ddb26e01b8f03f92d85c57a3",
+  "md5_file": "zulu13.31.11-ca-fx-jdk13.0.3-win_i686.zip.md5",
+  "os": "win",
+  "release_type": "ca-fx",
+  "sha1": "94f5875043765872ce7334cc4044e01351c7ceae",
+  "sha1_file": "zulu13.31.11-ca-fx-jdk13.0.3-win_i686.zip.sha1",
+  "sha256": "aae65341c9926c18efea698531c3c25625b58e3d9fd329a6bb6f548d3eecd1be",
+  "sha256_file": "zulu13.31.11-ca-fx-jdk13.0.3-win_i686.zip.sha256",
+  "sha512": "d92c16489262d5d790351c36832cdd0ddf1b0d7b60bb66f9c18c5701a32dcb2a1084c47c479c724c7105957d963ca6f0d27374c70af13b1f923f7a8496b15a33",
+  "sha512_file": "zulu13.31.11-ca-fx-jdk13.0.3-win_i686.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-fx-jdk13.0.3-win_i686.zip",
+  "variant": "jdk",
+  "version": "13.31.11"
+}
+{
   "arch": "x64",
   "archive_type": "zip",
   "filename": "zulu13.31.11-ca-fx-jdk13.0.3-win_x64.zip",
@@ -1553,6 +1572,25 @@
   "sha512": "b7b7ed4d34ad876b27ef9a22d184014d37bb4af73cf8d56f405bfcf054e38b18767398745db6225c7db5554c2c2ff86f238348ae1ab95c9faac3c6ac45261cf0",
   "sha512_file": "zulu13.31.11-ca-fx-jre13.0.3-macosx_x64.zip.sha512",
   "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-fx-jre13.0.3-macosx_x64.zip",
+  "variant": "jre",
+  "version": "13.31.11"
+}
+{
+  "arch": "i686",
+  "archive_type": "zip",
+  "filename": "zulu13.31.11-ca-fx-jre13.0.3-win_i686.zip",
+  "java_version": "13.0.3",
+  "md5": "87b156632400f1677ce961a604fe01ec",
+  "md5_file": "zulu13.31.11-ca-fx-jre13.0.3-win_i686.zip.md5",
+  "os": "win",
+  "release_type": "ca-fx",
+  "sha1": "1adb3e92a59f34f5d8012836115d678be844fcee",
+  "sha1_file": "zulu13.31.11-ca-fx-jre13.0.3-win_i686.zip.sha1",
+  "sha256": "4010c6e7945ebd60fb803fe510a92bb00cde3d9feffa2db9a1706d6d12ede3c5",
+  "sha256_file": "zulu13.31.11-ca-fx-jre13.0.3-win_i686.zip.sha256",
+  "sha512": "57e6a911aae90fcfba11d691f0ce6380032ed484412bcc63a12d840c8b5aaf1de36a8ef2ac14e83444431d43cbef2fb4f225b3732926f4cd68d551418cb0d26f",
+  "sha512_file": "zulu13.31.11-ca-fx-jre13.0.3-win_i686.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu13.31.11-ca-fx-jre13.0.3-win_i686.zip",
   "variant": "jre",
   "version": "13.31.11"
 }
