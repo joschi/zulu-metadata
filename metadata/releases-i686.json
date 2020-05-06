@@ -1463,6 +1463,44 @@
 }
 {
   "arch": "i686",
+  "archive_type": "tar.gz",
+  "filename": "zulu14.28.21-ca-jre14.0.1-linux_i686.tar.gz",
+  "java_version": "14.0.1",
+  "md5": "a1e7bd7c5b9b625f7317ebc826bd9fc8",
+  "md5_file": "zulu14.28.21-ca-jre14.0.1-linux_i686.tar.gz.md5",
+  "os": "linux",
+  "release_type": "ca",
+  "sha1": "b06219b08bb90fe7402788fa40cc8b307b0cae95",
+  "sha1_file": "zulu14.28.21-ca-jre14.0.1-linux_i686.tar.gz.sha1",
+  "sha256": "b27545baf394ac9fed7eccb982d73278316c68d9b261e481822e2c7cc1dbef0a",
+  "sha256_file": "zulu14.28.21-ca-jre14.0.1-linux_i686.tar.gz.sha256",
+  "sha512": "e303d4bf5ab9bc7b64f9edfe67bd367aba916835adb02071c84abf5ba944f6e9a57f15786722faaa4176d08f07076a2e9c7f0a8214d4bf7aab1108e1ec166a46",
+  "sha512_file": "zulu14.28.21-ca-jre14.0.1-linux_i686.tar.gz.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu14.28.21-ca-jre14.0.1-linux_i686.tar.gz",
+  "variant": "jre",
+  "version": "14.28.21"
+}
+{
+  "arch": "i686",
+  "archive_type": "zip",
+  "filename": "zulu14.28.21-ca-jre14.0.1-win_i686.zip",
+  "java_version": "14.0.1",
+  "md5": "11a8303802a24a630d3cb45ddf6f18f3",
+  "md5_file": "zulu14.28.21-ca-jre14.0.1-win_i686.zip.md5",
+  "os": "win",
+  "release_type": "ca",
+  "sha1": "6e4462034e47951cca45bc94318fea0283d2daf3",
+  "sha1_file": "zulu14.28.21-ca-jre14.0.1-win_i686.zip.sha1",
+  "sha256": "964876f0bf2c593617557aecb078a29df9db3947cc92de3e267c2228ec32c362",
+  "sha256_file": "zulu14.28.21-ca-jre14.0.1-win_i686.zip.sha256",
+  "sha512": "9fd9043825cc5c794d10b2b79c6d160175279ff0173b50e00323b3ec6b09acfb236adba27ea76f33efd50864b9a9855b0348b75c3679cc34ab3a923f68230806",
+  "sha512_file": "zulu14.28.21-ca-jre14.0.1-win_i686.zip.sha512",
+  "url": "https://static.azul.com/zulu/bin/zulu14.28.21-ca-jre14.0.1-win_i686.zip",
+  "variant": "jre",
+  "version": "14.28.21"
+}
+{
+  "arch": "i686",
   "archive_type": "zip",
   "filename": "zulu15.0.23-ea-jdk15.0.0-ea.10-win_i686.zip",
   "java_version": "15.0.0-ea.10",
