@@ -1,3 +1,7 @@
+# Deprecated: See https://github.com/joschi/java-metadata for a replacement
+
+----
+
 # Zulu Community™ Release Metadata
 
 ![Update release metadata](https://github.com/joschi/zulu-metadata/workflows/Update%20release%20metadata/badge.svg)
